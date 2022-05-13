@@ -1,0 +1,11 @@
+.heading {
+  display: inline;
+}
+
+.usersLink {
+  display: inline;
+  text-decoration: underline;
+  margin-left: 2rem;
+  color: blue;
+  cursor: pointer;
+}
