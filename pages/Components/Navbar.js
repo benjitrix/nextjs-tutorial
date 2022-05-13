@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Navbar = () => {
   return ( 
     <nav >
-    <Image src="/todo_icon.png" width={80} height={80} />
+    <Image src="/todo_icon.png" width={80} height={80} alt="" />
       <h1 className="logo">Portfolio List</h1>
       <Link href="/"><a>Home</a></Link>
       <Link href="/about"><a>About</a></Link>

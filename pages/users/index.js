@@ -16,7 +16,7 @@ const Users = ({ users }) => {
       <h1>ALL USERS</h1> 
       {
         users.map(user => (
-          <Link href={`/users/${user.id}`} key={user.id}>
+          <Link href={'/users/' + user.id} key={user.id}>
             <a className={styles.single}>
               <h3>{user.name}</h3>
             </a>
